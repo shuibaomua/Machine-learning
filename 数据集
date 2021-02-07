@@ -1,0 +1,51 @@
+数据挑战
+---------------
+*机器学习的挑战：http://www.chalearn.org/
+* ICWSM数据挑战赛（自2009年起）：http：//icwsm.cs.umbc.edu/
+* Kaggle竞争数据：http：//www.kaggle.com/
+*腾讯2012年KDD杯：https：//www.kddcup2012.org/
+* Netflix奖：http：//www.netflixprize.com/leaderboard
+* Yelp数据集挑战：http://www.yelp.com/dataset_challenge
+机器学习
+----------------
+* eBay在线拍卖：http://www.modelingonlineauctions.com/datasets
+* IMDb数据库：http：//www.imdb.com/interfaces
+* Keel资料库：http://sci2s.ugr.es/keel/datasets.php
+* Lending Club贷款数据：https://www.lendingclub.com/info/download-data.action
+*机器学习数据集存储库：http://mldata.org/
+*百万首歌曲数据集：http://blog.echonest.com/post/3639160982/million-song-dataset
+*更多歌曲数据集：http://labrosa.ee.columbia.edu/millionsong/pages/additional-datasets
+* MovieLens数据集：http://datahub.io/dataset/movielens
+* RDataMining R和Data Mining电子书数据：http://www.rdatamining.com/data
+*地球上已注册的陨石：http://www.analyticbridge.com/profiles/blogs/registered-meteorites-that-has-impacted-on-earth-visualized
+*旧金山餐馆数据集：http：//missionlocal.org/san-francisco-restaurant-health-inspections/
+* UCI机器学习存储库：http://archive.ics.uci.edu/ml/
+*多伦多大学Delve数据集：http：//www.cs.toronto.edu/~delve/data/datasets.html
+* Yahoo评分和分类数据：http：//webscope.sandbox.yahoo.com/catalog.php？datatype = r
+自然语言
+----------------
+*上下文中的4000万个实体：https://code.google.com/p/wiki-links/downloads/list
+* ClueWeb09 FACC：http：//lemurproject.org/clueweb09/FACC1/
+* ClueWeb12 FACC：http：//lemurproject.org/clueweb12/FACC1/
+* Flickr个人分类法：http://www.isi.edu/~lerman/downloads/flickr/flickr_taxonomies.html
+* Google图书Ngrams：http：//aws.amazon.com/datasets/8172056142375670
+* Google Web 5gram，2006（1T）：https：//catalog.ldc.upenn.edu/LDC2006T13
+*古腾堡电子书清单：http：//www.gutenberg.org/wiki/Gutenberg：Offline_Catalogs
+*议事录：http://www.isi.edu/natural-language/download/hansard/
+*机器翻译：http://statmt.org/wmt11/translation-task.html#download
+*垃圾短信收集：http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/
+* USENET语料库：http://www.psych.ualberta.ca/~westburylab/downloads/usenetcorpus.download.html
+* WordNet：http://wordnet.princeton.edu/wordnet/download/
+图像处理
+----------------
+* 2GB的猫照片：http：//137.189.35.203/WebUI/CatDatabase/catData.html
+*人脸识别基准：http：//www.face-rec.org/databases/
+* ImageNet：http://www.image-net.org/
+
+
+
+ 马萨诸塞大学系列
+ -------------------------------------------------------
+http://traces.cs.umass.edu/index.php/Network/Network 系列：
+这个网站提供了该学院很多数据集，这些数据集是他们发表论文时提取的，然后公开出来。
+
