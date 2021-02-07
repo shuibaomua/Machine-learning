@@ -61,3 +61,147 @@ http://www.cse.bgu.ac.il/title_fingerprinting/
 数据集描述：
 作者采集了10000个Youtube视频流量，其中包含100个视频，每个视频观看100次。然后每个pcap，都有标注好对应的视频标题。pcap都没做数据脱敏，就是原始的pcap数据包。
 
+流量分析对抗实验数据集
+------------------------------------------
+这个数据集需要自己根据源码自己生成：
+https://github.com/kpdyer/website-fingerprinting.git
+源码生成的结果是会访问2000个 website 和775个SSH的Sockets代理的website的流量，里面的还有11个流量混淆的方法（包括包长填充等）可供选择，里面还有11个流量分类器。
+
+网络防御比赛的数据集
+---------------------------------------------------
+里面有SSL的数据包，尚未标注好的。可以作为协议格式自动化推断的数据包。
+https://www.netresec.com/?page=MACCDC
+
+
+Tor流量
+----------------------------------------------
+1、AWF模型
+https://github.com/jmhIcoding/DLWF?organization=jmhIcoding&organization=jmhIcoding
+2、Deep fingerping数据集
+https://github.com/deep-fingerprinting/df 这个是深度学习的一个数据集，里面有95个类别。训练集有75000多个样本，测试集和验证集还各有9500条样本。
+
+Tor流量
+------------------
+URL:
+http://home.cse.ust.hk/~taow/wf/data/
+这里也是标注好的tor的website的流量，里面的数据都是基于cell的，都是+1，-1的序列。但是原始数据都带了相对时间戳。
+有100多个类别，每个类别有100个左右的trace。
+
+移动APP加密流量
+----------------------
+Andrubis 数据集
+https://drive.google.com/drive/folders/1IXa3IJS9zJS4vggpyU7yda8f7jZjz4gB
+介绍：
+这个数据集超大，包含了103万个Android APP的带标注的流量数据，而且是pcap原始数据包。这个就很棒啊。
+
+这个数据集包括了正常APP和恶意APP，是否正常是通过VirusTotal来判断的。
+每个APP在Android模拟器里面跑4分钟。
+
+
+Browser 数据集
+---------------------------
+https://drive.google.com/open?id=1wOdrfazbrcMDrL0NfA4GLoWegtPqkPj3
+在三星Note4 安卓6.0.1设备上使用Chrome,Firefox,三星自带流量和UC浏览器访问Alexa Top 1000的站点。 每个站点访问15秒。
+这里是为了分类不同的浏览器。
+
+Cross Platform数据集
+---------------------------
+PPT链接：https://www.ndss-symposium.org/wp-content/uploads/2018/03/NDSS2018_05B-2_Ren_Slides.pdf
+
+Cross Platform dataset: https://recon.meddle.mobi/cross-market.html
+The Cross Platform dataset [51] consists of
+user-generated data for 215 Android and 196 iOS apps. The
+iOS apps were gathered from the top 100 apps in the App
+Store in the US, China and India. The Android apps originate
+from the top 100 apps in Google Play Store in the US and
+India, plus from the top 100 apps of the Tencent MyApps and
+360 Mobile Assistant stores, as Google Play is not available in
+China. Each app was executed between three and ten minutes
+while receiving real user inputs. Procedures to install, interact,
+and uninstall the apps were given to student researchers who
+followed them to complete the experiments while collecting
+data. We use this dataset to evaluate both the performance
+of our method with user-generated data and the performance
+between different operating systems.
+
+
+
+针对于网络安全领域中基于PCAP流量的数据集
+----------------------------------------------
+网络安全领域中基于PCAP流量的数据集
+MAWI Working Group Traffic Archive
+URL：http://mawi.wide.ad.jp/mawi/
+
+CIC dataset
+Canadian Institute for Cybersecurity datasets are used around the world by universities, private industry and independent researchers.
+
+URL：https://www.unb.ca/cic/datasets/
+
+KDD’99 (University of California, Irvine 1998, 99)
+CAIDA (Center of Applied Internet Data Analysis – 2002/2016)
+http://www.caida.org/data(缺乏政府，企业和研究机构的支持，DatCat发展空间不大)
+
+CIC-IDS-2017 入侵检测数据集,包含以下8个CSV文件：可以用于机器学习的训练
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+Friday-WorkingHours-Morning.pcap_ISCX.csv
+Monday-WorkingHours.pcap_ISCX.csv
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+Thursday-WorkingH
+UNIBS
+URL: www.ing.unibs.it/ntw/tools/traces/index.php
+
+WIDE
+URL: http://mawi.wide.ad.jp/mawi
+
+WITS
+URL: www.wand.net.nz/wits(只能通过IPV6主机访问)
+
+MAWILab
+http://www.fukuda-lab.org/mawilab/data.html
+
+CIDDS data sets
+https://www.hs-coburg.de/index.php?id=927
+
+https://github.com/markusring/CIDDS
+
+LANDER
+LBNL (Lawrence Berkeley National Laboratory and ICSI – 2004/2005)
+MERIT
+RouteViews
+PCH
+CTU-13 Dataset
+http://mcfp.weebly.com/the-ctu-13-dataset-a-labeled-dataset-with-botnet-normal-and-background-traffic.html
+
+Publicly available PCAP files
+https://www.netresec.com/?page=pcapfiles
+
+UCI Network Data Repository
+https://networkdata.ics.uci.edu/resources.php
+
+CRAWDAD
+https://crawdad.org//
+
+Stratosphere Lab
+https://www.stratosphereips.org/datasets-overview/
+
+Cambridge University 
+Computer Laboratory 
+
+https://www.cl.cam.ac.uk/research/srg/netos/projects/brasil/data/index.html
+
+https://www.cl.cam.ac.uk/research/srg/netos/projects/archive/nprobe/data/papers/index.html
+
+Moore数据集 https://www.cl.cam.ac.uk/research/srg/netos/projects/archive/nprobe/data/papers/ccr-ivs-crc/index.html
+DARPA (Lincoln Laboratory 1998, 1999)
+DEFCON (The Shmoo Group, 2000)
+CDX (United States Military Academy 2009)
+Kyoto (Kyoto University – 2009)
+Twente (University of Twente – 2009)
+UMASS (University of Massachusetts – 2011)
+ISCX2012 (University of New Brunswick – 2012)
+ADFA (University of New South Wales – 2013)
+国内一些实验室也会有一些数据集：
+
+360 Netlab
+http://blog.netlab.360.com/tag/ddos/
