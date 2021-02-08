@@ -205,3 +205,378 @@ ADFA (University of New South Wales – 2013)
 
 360 Netlab
 http://blog.netlab.360.com/tag/ddos/
+
+网络入侵检测数据集可分为七大类，分别为（1）基于网络流量的数据集;（2）基于电网的数据集;（3）基于互联网流量的数据集;（4）基于虚拟专用网络数据集;（5）基于Android应用数据集;（6）基于IoT流量的数据集;（7）基于互联网连接设备数据集。其中最常用的数据集有：1.DARPA 1998 dataset；2.KDD Cup 1999 dataset；3.NSL-KDD dataset；4.UNSW-NB15 dataset。
+DARPA'98数据集
+（Lippmann R P, Fried D J, Graf I, et al. Evaluating intrusion detection systems: The 1998 DARPA off-line intrusion detection evaluation[C]//Proceedings DARPA Information Survivability Conference and Exposition. DISCEX'00. IEEE, 2000, 2: 12-26https://www.ll.mit.edu/r-d/datasets
+https://www.ll.mit.edu/r-d/datasets
+KDDCUP'99数据集
+-------------------Tavallaee M, Bagheri E, Lu W, et al. A detailed analysis of the KDD CUP 99 data set[C]//2009 IEEE symposium on computational intelligence for security and defense applications. IEEE, 2009: 1-6.
+
+下载地址：http://kdd.ics.uci.edu/databas
+
+NSL-KDD数据集
+------------------
+ Dhanabal L, Shantharajah S. A study on NSL-KDD dataset for intrusion detection system based on classification algorithms. International Journal of Advanced Research in Computer and Communication Engineering. 2015;4(6):446–452.
+
+下载地址：https://www.unb.ca/cic/datasets/nsl
+
+ISCX-IDS2012数据集
+------------------------------
+Shiravi A, Shiravi H, Tavallaee M, et al. Toward developing a systematic approach to generate benchmark datasets for intrusion detection[J]. computers & security, 2012, 31(3): 357-374.
+
+下载地址：https://www.unb.ca/cic/datasets/ids.html
+
+UNSW-NB15数据集
+-------------------------------------
+ Moustafa N, Slay J. UNSW-NB15: a comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set)[C]//2015 military communications and information systems conference (MilCIS). IEEE, 2015: 1-6.
+
+下载地址：http://www.cybersecurity.unsw.adfa.edu.au/ADFA%20NB15%20Datasets/ 
+
+CIC-IDS2017数据集和CIC-IDS2018数据集
+------------------------------------------
+Sharafaldin I, Lashkari A H, Ghorbani A A. Toward generating a new intrusion detection dataset and intrusion traffic characterization[C]//ICISSP. 2018: 108-116.
+
+CIC-IDS2017 :https://www.unb.ca/cic/datasets/ids-2017.
+
+CIC-IDS2018 :html https://www.unb.ca/cic/datasets/ids-2018.html
+
+CICDDoS2019数据集
+-----------------------------------------------
+Sharafaldin I, Lashkari A H, Hakak S, et al. Developing Realistic Distributed Denial of Service (DDoS) Attack Dataset and Taxonomy[C]//2019 International Carnahan Conference on Security Technology (ICCST). IEEE, 2019: 1-8.
+
+下载地址：https://www.unb.ca/cic/datasets/ddo
+
+https://aistudio.baidu.com/aistudio/projectdetail/1236018
+----------------------------------------------------------------
+
+网络防御演习（CDX）
+此类别包括来自演习和比赛的网络流量，例如网络防御演习（CDX）和红队/蓝队比赛。
+
+MACCDC-来自国家Cyber​​Watch中大西洋大学网络防御竞赛的Pcaps
+https://www.netresec.com/?page=MACCDC
+
+ISTS-信息安全人才搜索的过程
+https://www.netresec.com/?page=ISTS
+
+摘自美国军事学院信息技术运营中心（ITOC）服务的“ 2009跨服务学院网络防御大赛”
+https://www.westpoint.edu/centers-and-research/cyber-research-center/data集
+
+恶意软件流量
+从蜜罐，沙箱或真实世界的入侵中捕获恶意软件流量。
+
+Contagio恶意软件转储：归类为APT，犯罪或Metasplot的PCAP文件的集合
+https://contagiodump.blogspot.com/2013/04/collection-of-pcap-files-from-malware.html（PCAP
+存档托管在DropBox上）和MediaFire）
+警告：受密码保护的zip文件包含真正的恶意软件，
+请参阅以下案例的Contagio的PCAP文件：
+
+Trojan.Tbot https://contagiodump.blogspot.com/2012/12/dec-2012-skynet-tor-botnet-trojantbot.html
+ZeroAccess木马https://contagiodump.blogspot.com/2012/10/blackhole-2-exploit-kit-files-partial.html
+CVE-2012-4681 https://contagiodump.blogspot.com/2012/09/cve-2012-4681-samples-original-apt-and.html
+Trojan Taidoor https://contagiodump.blogspot.com/2011/11/nov-3-cve-2011-0611-1104statmentpdf.html
+Poison Ivy CnC https://contagiodump.blogspot.com/2011/07/message-targeting-experts-on-japan.html
+共享恶意软件以及PCAP文件的恶意软件分析博客
+https://www.malware-traffic-analysis.net/
+
+GTISK PANDA Malrec- @moyix和GTISK https://giantpanda.gtisc.gatech.edu/malrec/dataset/创建的在PANDA中运行的恶意软件样本中的PCAP文件
+
+平流层IPS - PCAP和阿格斯数据集与恶意流量，塞巴斯蒂安·加西亚（创建@eldracote）在ATG组的捷克技术大学的
+https://www.stratosphereips.org/datasets-overview/
+
+虚拟机执行信息窃取恶意软件。由特温特大学服务，网络安全和安全研究小组创建。
+http://scs.ewi.utwente.nl/downloads/
+
+Regin恶意软件PCAP文件，由@moyix创建（请参阅他的博客文章）
+http://laredo-13.mit.edu/~brendan/regin/pcap/
+
+Ponmocup恶意软件/木马（aka Milicenso）PCAP，作者Tom Ueltschi aka @c_APT_ure
+https://download.netresec.com/pcap/ponmocup/vm-2.pcap
+另请参见原始源（受密码保护的zip）和分析说明（文本）
+
+使用PowerShell帝国（TCP 8081）和SSL PCAP文件包裹从CERT.SE的C2（TCP 445）通信技术的书面记录的主要欺诈和黑客刑事案件“B 8322-16”。
+https://drive.google.com/open?id=0B7pTM0QU5apSdnF0Znp1Tko0ams
+
+免费的恶意软件分析沙箱。可以上传或搜索恶意软件样本，也可以下载沙箱执行中的PCAP文件。
+https://hybrid-analysis.com/
+
+Eric Conrad的 Shadowbrokers PCAP ，包括ETERNALBLUE和ETERNALROMANCE。
+https://www.dropbox.com/sh/kk24ewnqi9qjdvt/AACj7AHJrDHQeyJTuo1oBqeQa
+
+网络取证
+网络取证培训，挑战和竞赛。
+
+动手网络取证 -FIRST 2015培训PCAP数据集
+https://www.first.org/conference/2015/program#phands-on-network-forensics
+由Netresec镜像的文件：
+
+幻灯片/案例（PDF）
+
+带有PCAP文件的SecurityOnion VM（5.8 GB）VirtualBox VM。VM登录凭据为：用户/密码
+捕获文件（4.4 GB）
+
+ENISA的网络取证培训
+https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material/technical-operational#network_forensics
+
+教师文件（PDF）
+学生文件（PDF）
+虚拟机（OVA）
+
+DEEP（海军研究生院计算机科学数字评估和开发部门）在计算机法医学教育研究中使用的数字语料库。
+https://digitalcorpora.org/corpora/network-packet-dumps
+
+法医挑战14 –“怪异的Python”（Honeynet项目The Honeynet项目）
+https://www.honeynet.org/challenges/forensics-challenge-14-weird-python/
+
+DFRWS 2008挑战赛
+https://old.dfrws.org/2008/challenge/submission.shtml
+
+DFRWS 2009挑战
+https://old.dfrws.org/2009/challenge/submission.shtml
+
+DFIR MONTEREY 2015网络取证挑战赛（SANS的Phil Hagen）
+https://for572.com/2014-11nfchallengeevidence （答案）
+
+SCADA / ICS网络捕获
+4SICS ICS Lab PCAP文件-来自4SICS的ICS村的360 MB PCAP文件
+https://www.netresec.com/?page=PCAP4SICS
+
+DigitalBond S4x15 ICS村CTF PCAP
+https://www.netresec.com/?page=DigitalBond_S4
+
+协议索引的ICS PCAP文件的编译（Jason Smith）
+https://github.com/automayt/ICS-pcap
+
+具有工业控制系统中使用的OT和IT协议的PCAP文件（由ICS Defense / ICS Savunma提供）。 https://github.com/EmreEkin/ICS-Pcaps/
+
+DEF CON 23 ICS村
+https://media.defcon.org/DEF CON 23 / DEF CON 23村/ DEF CON 23 ICS村/ DEF CON 23 ICS村Packet captures.rar（需要RAR v5）
+
+Triz协议由Nozomi Networks执行TRITON协议
+https://github.com/NozomiNetworks/tricotools/blob/master/malware_exec.pcap
+
+TriStation流量
+https://packettotal.com/app/analysis?id=0e55d9467f138d148c9635617bc8fd83
+
+带有Modbus / TCP和西门子S7comm流量的中文ICS CTF（CTF WP –工控业务流量分析）
+https://github.com/NewBee119/ctf_ics_traffic
+
+Univ的ICS Cyber​​security PCAP存储库。Coimbra Cyber​​Sec团队的成员
+https://github.com/tjcruz-dei/ICS_PCAPS
+
+夺旗比赛（CTF）
+来自捕获标志（CTF）竞​​赛和挑战的PCAP文件。
+
+注意：嗅探CTF被称为“捕获标志”或CCTF。
+DEFCON捕获标志竞赛痕迹（来自DEF CON 8、10和11）
+http://cctf.shmoo.com/
+
+DEFCON 17夺旗大赛的踪迹
+http://ddtek.biz/dc17.html
+
+从DEF CON 17到24的DEFCON CTF PCAP（在ctf目录中查找较大的RAR文件）
+https://media.defcon.org/
+
+DEFCON CTF 2018 PCAP文件
+https://www.oooverflow.io/dc-ctf-2018-finals/
+
+CSAW CTF 2011 pcap文件
+http://captf.com/2011/csaw-quals/networking/
+http://shell-storm.org/repo/CTF/CSAW-2011/Networking/
+
+UCSB International Capture The Flag的Pcap文件，也称为iCTF（由Giovanni Vigna编写）
+https://ictf.cs.ucsb.edu/pages/archive.html
+
+HackEire CTF挑战pcaps从IRISSCON （由HackEire）
+https://github.com/markofu/hackeire/
+
+没有cON名称2014 CTF决赛，“​​伏特加”挑战赛
+https://github.com/MarioVilas/write-ups/raw/master/ncn-ctf-2014/Vodka/vodka（bzip2压缩的PCAP-NG文件）
+
+从2016年开始的PhreakNIC CTF（通过_NSAKEY）。包含往返于目标，NetKoTH评分服务器和IRC服务器的流量。
+https://drive.google.com/drive/folders/0B9TXiR9NkjmpOHNMRTl6VVA2RnM
+
+数据包注入攻击/边际攻击
+PCAP文件来自Gabi Nakible等人的研究。在网络运营商网站定位的虚假内容注入
+https://www.cs.technion.ac.il/~gnakibly/TCPInjections/samples.zip
+
+Fox-IT在BroCon 2015上发布的针对id1.cn的数据包注入
+https://github.com/fox-it/quantuminsert/blob/master/presentations/brocon2015/pcaps/id1.cn-inject.pcap
+
+针对www.02995.com的数据包注入，重定向到www.hao123.com（了解更多信息）
+https://www.netresec.com/files/hao123-com_packet-injection.pcap
+
+针对id1.cn的数据包注入，重定向至batit.aliyun.com（了解更多信息）
+https://www.netresec.com/files/id1-cn_packet-injection.pcap
+
+用于测试Honeybadger TCP注入攻击检测的Pcap文件
+https://github.com/david415/honeybadger-pcap-files
+
+比尔·马尔恰克（Bill Marczak ）在土耳其和埃及发现的中间人（MitM）攻击（也称为“路中攻击”）（阅读更多内容）。
+https://github.com/citizenlab/badtraffic/tree/master/pcaps
+
+未分类的PCAP资料库
+Wireshark示例库
+https://wiki.wireshark.org/SampleCaptures
+https://wiki.wireshark.org/Development/PcapNg#Example_pcapng_Capture_File
+
+SharkFest'15数据包挑战
+https://sharkfest.wireshark.org/assets/presentations15/packetchallenge.zip（通过SharkFest）
+
+Johannes Weber的 数据包分析挑战
+https://blog.webernetz.net/2017/03/29/wireshark-layer-2-3-pcap-analysis-w-challenges-ccnp-switch/
+可以找到来自Johannes的其他PCAP文件此处：https：//blog.webernetz.net/tag/pcap/
+
+尼古拉斯·鲁索（Nicholas Russo）的“工作援助”数据包捕获列表
+http://njrusmc.net/jobaid/jobaid.html
+
+TcpReplay示例捕获
+https://tcpreplay.appneta.com/wiki/captures.html
+
+应用通信科学的MILCOM 2016数据集
+https://www.netresec.com/?page=ACS_MILCOM_2016
+
+澳大利亚国防军学院（ADFA）UNSW-NB15数据集（100 GB）
+https://cloudstor.aarnet.edu.au/plus/index.php/s/2DhnLGDdEECo4ys?path=%2FUNSW-NB15%20-%20pcap% 20个文件
+
+1998年和1999年的DARPA入侵检测数据集
+https://archive.ll.mit.edu/ideval/data/
+
+OpenPacket.org捕获存储库（由Richard Bejtlich创建的JJ Cummings维护）
+https://www.openpacket.org/capture/list
+
+提姆小包动物园
+http://uluru.ee.unsw.edu.au/~tim/zoo/
+
+PacketLife.net数据包捕获（Jeremy Stretch）
+http://packetlife.net/captures/
+http://packetlife.net/captures/leech/
+
+MOME数据库
+http://www.ist-mome.org/database/MeasurementData/?cmd=databrowse
+
+EvilFingers PCAP
+https://www.evilfingers.com/repository/pcaps.php
+
+具有大量BACnet流量的混合PCAP文件存储库（由Steve Karg提供）
+http://kargs.net/captures/
+
+Wireshark网络分析学习指南（Laura Chappell）
+http://wiresharkbook.com/studyguide.html（请参阅“ Book Supplements”或使用此 直接链接到1.5 TB pcap文件集）
+
+Wireshark 101网络分析的基本技能（Laura Chappell）
+http://wiresharkbook.com/wireshark101.html（请参阅“ Book Supplements”，或使用 直接链接到330 MB的zip文件）
+
+Laura的实验室套件v.9 ISO映像（旧）
+http://cdn.novell.com/cached/video/bs_08/LLK9.iso
+
+克里斯·桑德斯 （Chris Sanders）收集的免费可用数据包捕获信息
+http://chrissanders.org/packet-captures/
+
+捕获文件的样本来自：克里斯·桑德斯（Chris Sanders）的“实用数据包分析-使用Wireshark解决实际网络问题”
+http://www.nostarch.com/download/ppa-capture-files.zip
+
+贾斯珀·邦格茨 （Jasper Bongertz）进行的Megalodon挑战-“一个现实世界的网络分析问题，包括其所有的困惑，缺点和不确定性”（3.8 GB消毒过的PCAP-NG文件）
+博客文章：https : //blog.packet-foo.com/2015/07 / the-megalodon-challenge /
+直接链接：http : //www.packet-foo.com/megalodon2015/MegalodonChallenge.7z
+
+在@elcabezzonn的实验室环境中生成的Pcap和日志。从恶意软件到正常流量再到pentester工具的范围
+https://github.com/elcabezzonn/Pcaps
+
+劳伦斯伯克利国家实验室的公共FTP服务器上的匿名FTP连接
+http://www-nrg.ee.lbl.gov/anonymized-traces.html
+
+Pcapr（Mu Dynamics）-包含各种流量类型的pcap文件的捕获存储库
+http://www.pcapr.net/
+
+了解项目下载-许多不同的捕获文件格式（pcap，pcapng / ntar，pcangpklg等）
+http://code.google.com/p/understand/downloads/list
+
+我闻到了数据包（网站）
+https://docs.google.com/leaf?id=0Bw6BFSu9NExVMjBjZDRkMTgtMmMyZi00M2ZlLWI2NzgtODM5NTZkM2U4OWQ1
+
+ISCX 2012数据集。可供研究人员使用的超过80 GB的pcap数据（由新不伦瑞克大学的Ali Shiravi，Hadi Shiravi和Mahbod Tavallaee创建）
+http://www.unb.ca/research/iscx/dataset/index.html
+
+来自FOI信息战实验室（FOI是瑞典国防研究局）的PCAP数据集研究
+ftp://download.iwlab.foi.se/dataset/smia2011/Network_traffic/（SMIA 2011，FTP服务器）
+https：//download.netresec。 com / pcap / smia-2011 /（SMIA 2011，网络镜像）
+ftp://download.iwlab.foi.se/dataset/smia2012/network_traffic/pcap/（SMIA 2012，FTP服务器）
+https：//download.netresec。 com / pcap / smia-2012 /（SMIA 2012，网络镜像）
+
+Teguh P. Alko 以PCAP-NG格式收集数据包的过程
+http://stuff.rop.io/packets/
+
+互联网流量存档（伯克利实验室）-主要是tcpdump ASCII输出
+http://ita.ee.lbl.gov/html/traces.html
+
+WITS：Waikato Internet流量存储（带有标题加上4字节的应用程序数据的ERF格式的跟踪）
+http://wand.net.nz/wits/
+FTP站点对IPv4连接使用速率限制，但对IPv6连接使用速率限制。
+
+Bro IDS跟踪文件（无应用程序层数据）
+ftp://ftp.bro-ids.org/enterprise-traces/hdr-traces05/
+
+SimpleWeb捕获（主要是数据包头）
+http://www.simpleweb.org/wiki/Traces
+
+来自ACM SIGCOMM'01的无线LAN跟踪（无应用层数据）
+http://sysnet.ucsd.edu/pawn/sigcomm-trace/
+
+Wireshark模糊协议容量（仅模糊数据包）
+ftp://wireshark.org/automated/captures/
+
+单个PCAP文件
+来自F5 BIG-IP设备的500 MB捕获文件（适用于CVE-2020–5902）（由NCC集团提供） https://github.com/nccgroup/Cyber​​-Defence/blob/master/Intelligence/Honeypot-Data/2020- F5-and-Citrix / f5-honeypot-release.tar.gz
+
+Honeynet .org每月的PCAP扫描
+http://www.honeynet.org/scans/scan21/
+http://www.honeynet.org/scans/scan22/
+http://www.honeynet.org/scans/scan23/
+http://www.honeynet.org/scans/scan27/
+http://www.honeynet.org/scans/scan28/
+
+CrypMic勒索软件感染（阅读博客文章）
+http://www.broadanalysis.com/wp-content/uploads/2016/08/2016-08-16-Neutrino-EK-pcap.zip
+
+MDSec，来自GSM 2.5G环境的数据包，显示上行链路/下行链路，两个MS设备，SIM APDU信息。
+https://github.com/HackerFantastic/Public/blob/master/misc/44CON-gsm-uplink-downlink-sim-example.pcap?raw=true
+
+SDN / IPv6专家Jeff Carrell的SDN OpenFlow pcap-ng文件。
+https://download.netresec.com/pcap/JeffCarrell/SDN-OpenFlow-Analysis-2.pcapng
+
+JexBoss的演示（Jboss的开发工具）“JBoss的利用-鉴于从受害者”由安德烈·M. DiMino
+http://www.deependresearch.org/2016/04/jboss-exploits-view-from-victim.html
+
+Raul Siles，“包含漫游VoIP会话的Pcap文件”
+http://www.raulsiles.com/downloads/VoIP_roaming_session.zip
+
+Russ McRee，受W32 / Sdbot感染的机器
+http://holisticinfosec.org/toolsmith/files/nov2k6/toolsmith.pcap
+
+笑话Snelders，使用WPA预共享密钥（密码“ subnet16121930”，SSID“ dd-wrt2”）加密的WiFi流量。
+http://www.lovemytool.com/files/test.pcap
+阅读Joke的“ Wireshark和TShark：解密样本捕获文件”博客文章，了解解密说明。
+
+hack.lu 2009信息安全可视化竞赛（蜜罐流量，主要是SSH和HTTP）
+http://2009.hack.lu/index.php/InfoVisContest
+
+梭子鱼实验室在PHP.net上的危害[博客文章]
+PCAP：http : //barracudalabs.com/downloads/5f810408ddbbd6d349b4be4766f41a37.pcap
+
+在Cracked.com恶意软件上的梭子鱼实验室[博客文章]
+PCAP：https : //copy.com/UoJTysFFh6ef
+
+在线PCAP服务
+将PcapNG文件转换为PCAP格式
+http://pcapng.com/
+
+PacketTotal-通过Bro和Suricata IDS运行上载的PCAP，并使其公开可用
+https://packettotal.com/
+
+ANY.RUN-交互式恶意软件分析服务，可生成PCAP文件。
+https://app.any.run/
+
+ 
+
+
