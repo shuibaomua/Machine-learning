@@ -578,5 +578,54 @@ ANY.RUN-交互式恶意软件分析服务，可生成PCAP文件。
 https://app.any.run/
 
  
+加密流量识别使用的数据集
+VPN-nonVPN dataset (ISCXVPN2016)
+这一个数据集首次提出，来自于下面这一篇文章。（Draper-Gil, Gerard, Arash Habibi Lashkari, Mohammad Saiful Islam Mamun, and Ali A. Ghorbani. "Characterization of encrypted and vpn traffic using time-related." In Proceedings of the 2nd international conference on information systems security and privacy (ICISSP), pp. 407-414. 2016
+https://xz.aliyun.com/t/1879
+https://www.netresec.com/?page=PcapFiles
+http://users.cis.fiu.edu/~lpeng/Datasets_detail.html
+http://tstat.tlc.polito.it/traces.shtml
+
+wireshark公开数据集
+
+https://wiki.wireshark.org/SampleCaptures
+
+s7comm：https://wiki.wireshark.org/S7comm
+————————————————
+
+
+https://www.unb.ca/cic/datasets/index.html
+
+（加拿大网络安全研究所）
+
+入侵检测数据集
+记录下常用入侵检测数据集的结构、来源背景
+
+DARPA 98/99/00
+DARPA Intrusion Detection Data Sets
+
+麻省理工学院林肯实验室发布的用于评估网络入侵检测系统的标准语料库。
+
+DARPA 98
+包含七周的训练数据
+每天的压缩包文件结构为
+bsm.list.gz - bsm的列表文件，指示所有会话在何处开始和结束并标记攻击的数据
+pascal.bsm.gz - 这一天的实际原始二进制bsm审核数据
+pascal.praudit.gz - 通过praudit 运行二进制bsm审核数据而创建的ascii BSM审核数据
+pascal.psmonitor.gz - 每60秒运行UNIX ps命令的结果
+tcpdump.gz - 嗅探器提供的原始tcpdump数据
+tcpdump.list.gz - tcpdump数据的列表文件，它指示所有会话的开始和结束位置，并标记攻击。
+
+
+DARPA 99
+包含三周的训练数据
+每天的文件结构为
+outside.tcpdump.gz - 外部嗅探数据（Tcpdump格式）
+inside.tcpdump.gz - 内部嗅探数据（Tcpdump格式）
+pascal.bsm.gz - BSM审核数据（来自pascal）
+hume_evt.tar.gz - NT审核数据（来自hume）
+directory_dumps.tar.gz - 目录树的详细列表（来自pascal，marx，zeno和hume）
+fs_listing.tar.gz - 选定目录的转储（来自pascal，marx，zeno和hume）
+训练数据的第一周和第三周不包含任何攻击。提供此数据是为了便于训练异常检测系统。
 
 
